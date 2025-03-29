@@ -47,7 +47,7 @@ trait HasTranslationModelTrait
 
     /**
      * @param string $locale
-     * @return array
+     * @return array<string, mixed>
      */
     public function getAttributesWithTranslation(string $locale): array
     {
